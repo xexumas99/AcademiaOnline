@@ -1,0 +1,11 @@
+# import Curso from "curso.graphql"
+
+"Informacion de los estudiantes"
+type Estudiante {
+    "identificador del estudiante"
+    id: ID!,
+    name: String!,
+    email: String!,
+    website: String,
+    courses: [Curso!]!
+}

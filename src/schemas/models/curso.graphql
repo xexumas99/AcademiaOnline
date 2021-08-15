@@ -1,0 +1,17 @@
+# import Nivel from "../enums/nivel.graphql"
+# import Estudiante from "estudiante.graphql"
+# import Valoracion from "valoracion.graphql"
+
+type Curso {
+    id: ID!,
+    title: String!,
+    description: String!,
+    clases: Int!,
+    time: Float!,
+    level: Nivel!,
+    logo: String!,
+    path: String!,
+    teacher: String!,
+    students: [Estudiante]
+    reviews: [Valoracion!]!
+}

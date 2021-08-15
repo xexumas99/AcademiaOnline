@@ -1,0 +1,9 @@
+# import Estudiante, Curso from "models/models.graphql"
+
+type Query {
+    estudiantes: [Estudiante!]!
+    "Informacion del estudiante seleccionado por ID"
+    estudiante(id: ID!): Estudiante!
+    cursos: [Curso!]!
+    curso(id: ID!): Curso!
+}

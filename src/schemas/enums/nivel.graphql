@@ -1,0 +1,6 @@
+enum Nivel {
+    ALL
+    BEGGINER
+    MEDIUM
+    EXPERT
+}

@@ -1,0 +1,9 @@
+# import Curso from "models/models.graphql"
+# import CursoInput from "inputs/inputs.graphql"
+
+type Mutation {
+    cursoNuevo(curso: CursoInput!): Curso!
+    modificarCurso(curso: CursoInput!): Curso!
+    eliminarCurso(id: ID!): Curso!
+}
+

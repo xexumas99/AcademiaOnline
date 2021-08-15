@@ -1,0 +1,13 @@
+# import Nivel from "../enums/nivel.graphql"
+
+input CursoInput {
+    id: ID,
+    title: String!,
+    description: String!,
+    clases: Int!,
+    time: Float!,
+    level: Nivel=ALL,
+    logo: String!,
+    path: String!,
+    teacher: String!,
+}
